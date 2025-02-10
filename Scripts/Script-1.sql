@@ -1,0 +1,1 @@
+SELECT * FROM referensi.tr_dokumen where uraian_dokumen ilike '%masterlist%'

@@ -1,0 +1,1 @@
+select * from referensi.tr_spek_khusus where flag_usdfs is true;

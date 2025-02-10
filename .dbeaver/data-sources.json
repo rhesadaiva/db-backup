@@ -1,0 +1,265 @@
+{
+	"folders": {
+		"DRC": {},
+		"Personal": {},
+		"Kanwil BC Papua": {
+			"parent": "Personal"
+		},
+		"Kanwil BC Kalbagsel": {
+			"parent": "Personal"
+		}
+	},
+	"connections": {
+		"mariaDB-18aa40f6df6-601692002b567bf": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "intip_bhp",
+			"save-password": true,
+			"folder": "Personal",
+			"configuration": {
+				"host": "db-intip-bhp.intip-bhp-pegawai.orb.local",
+				"port": "3306",
+				"database": "intip_bhp",
+				"url": "jdbc:mariadb://db-intip-bhp.intip-bhp-pegawai.orb.local:3306/intip_bhp",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18b21ea228b-49558f020173a28b": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 DRC Prod",
+			"save-password": true,
+			"folder": "DRC",
+			"configuration": {
+				"host": "10.229.6.5",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.229.6.5:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18bd6f560fa-6069ea9257066084": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 - PROD",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.6.25",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.239.6.25:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18bd6f80709-4037b59138acab2b": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 - DEVELOPMENT",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.8.35",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.239.8.35:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18c0f4737bc-6142a08cb4ca7964": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 PROD READ ONLY",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.6.25",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.239.6.25:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-18c24322dce-463582b8e3de0d04": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "intip_bhp_papua",
+			"save-password": true,
+			"folder": "Personal/Kanwil BC Papua",
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "intip_bhp",
+				"url": "jdbc:mariadb://localhost:3306/intip_bhp",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-18c24585501-56d3f1c9a540c6b0": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "root_mysql",
+			"save-password": true,
+			"folder": "Personal/Kanwil BC Papua",
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "intip_bhp_kalbagsel",
+				"url": "jdbc:mariadb://localhost:3306/intip_bhp_kalbagsel",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-18c2eab8fdc-80217a22ca6ca30": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "intip_bhp_kalbagsel",
+			"save-password": true,
+			"folder": "Personal/Kanwil BC Kalbagsel",
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "intip_bhp_kalbagsel",
+				"url": "jdbc:mariadb://localhost:3306/intip_bhp_kalbagsel",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18c33c12359-768ad0b9c28a4efd": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 1 - PROD READ",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.6.22",
+				"port": "5758",
+				"database": "nswdb",
+				"url": "jdbc:postgresql://10.239.6.22:5758/nswdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18c675d4f01-3969f885604fc716": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 - PROD SYS CMS",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.6.25",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.239.6.25:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18e4bef99c1-77b9ddb3ea29c071": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"folder": "Personal",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-1940cf3e8d2-2ad2402790b1e51": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "GEN 2 - STAGING",
+			"save-password": true,
+			"configuration": {
+				"host": "10.239.8.35",
+				"port": "5152",
+				"database": "nswdbgen2",
+				"url": "jdbc:postgresql://10.239.8.35:5152/nswdbgen2",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": false,
+				"auth-model": "native"
+			}
+		},
+		"mysql8-19455740f74-28860fae24dd547d": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "laravel",
+				"url": "jdbc:mysql://localhost:3306/laravel",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
